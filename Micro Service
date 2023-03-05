@@ -1,0 +1,5 @@
+RPC（Remote Procedure Call）需要解决的几个问题：
+- 调用的客户端和服务端怎样建立连接？（HTTP\Socket）
+- 客户端和服务端应该使用怎样的通信协议？(HTTP\Dubbo)
+- 服务端应该使用怎样的请求处理方式？（BIO\NIO\AIO）
+- 应该使用哪种序列化的方式？(JSON\XML\PB)
